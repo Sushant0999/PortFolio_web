@@ -1,0 +1,239 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #0bceaf !important;
+    }
+    /* FONTS */
+    
+    @font-face {
+        font-family: "HandaFont";
+        src: url("/fonts/handa/HandaOutline-x01K.ttf");
+    }
+    /* FONTS */
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    /* TOP */
+    
+    #top {
+        padding: 2%;
+        margin: 3%;
+        background-color: #0bceaf;
+        color: white;
+        font: 2.5rem sans-serif;
+        text-align: center;
+    }
+    
+    .top {
+        margin-bottom: 20px;
+    }
+    
+    .name {
+        font-family: 'HandaFont' !important;
+        font-size: 6rem;
+    }
+    
+    p {
+        font-family: sans-serif;
+    }
+    
+    .div2 {
+        font-family: 'Raleway', sans-serif;
+        padding: 2em 2em;
+        font-size: 2.8rem;
+        color: white;
+    }
+    
+    .h1,
+    .h2 {
+        font-weight: 200;
+        margin: 0.4em 0;
+    }
+    
+    .h1 {
+        font-size: 4rem;
+    }
+    
+    .h2 {
+        color: white;
+        font-size: 2em;
+    }
+    
+    #navigation-bar {
+        background-color: white;
+        /* margin: 5px;
+        padding: 10px; */
+    }
+    
+    .pro {
+        display: inline-block;
+        margin-top: 8%;
+        border-radius: 200px;
+    }
+    /* TOP */
+    /* SPACER */
+    
+    .spacer {
+        height: 20px;
+    }
+    
+    table {
+        width: 100%;
+    }
+    /* th {
+        padding: 2%;
+    } */
+    
+    td {
+        padding: 2%;
+    }
+    /* SPACER */
+    /* MID */
+    
+    #header {
+        text-align: center;
+        font-size: 10rem;
+        color: rgb(182, 181, 181);
+        font-family: 'HandaFont' !important;
+    }
+    
+    #onheader {
+        text-align: center;
+        color: #0bceaf;
+        font-size: 4rem;
+        position: relative;
+        bottom: 20%;
+    }
+    
+    .buttonP {
+        padding: 2% !important;
+    }
+    
+    .ancor {
+        color: white !important;
+        text-emphasis: none !important;
+        text-decoration: none !important;
+    }
+    
+    .ancor:hover {
+        color: black !important;
+    }
+    
+    #mid1 {
+        background-color: azure;
+        height: 100vh;
+        /*   filter: blur(5px);
+        -webkit-filter: blur(5px);
+        background-position: center; */
+    }
+    /* MID1 */
+    /* MID2 */
+    
+    #mid2 {
+        background-color: whitesmoke;
+        height: 100vh;
+        text-align: center;
+    }
+    
+    .container-skl {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    @keyframes load {
+        from {
+            width: 0%
+        }
+    }
+    
+    @-webkit-keyframes load {
+        from {
+            width: 0%
+        }
+    }
+    
+    @-moz-keyframes load {
+        from {
+            width: 0%
+        }
+    }
+    
+    @-o-keyframes load {
+        from {
+            width: 0%
+        }
+    }
+    
+    .bar {
+        background-color: #EEE;
+        padding: 2px;
+        border-radius: 15px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #FFF;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    
+    .bar::before {
+        content: attr(data-skill);
+        background-color: #f3b0ff;
+        display: inline-block;
+        padding: 5px 0 5px 10px;
+        border-radius: inherit;
+        animation: load 2s 0s;
+        -webkit-animation: load 2s 0s;
+        -moz-animation: load 2s 0s;
+        -o-animation: load 2s 0s;
+    }
+    
+    .bar.front::before {
+        background-color: #ffcc33;
+    }
+    
+    .bar.back::before {
+        background-color: #a6cfe3;
+    }
+    
+    .bar.learning::before {
+        width: calc(20% - 10px);
+    }
+    
+    .bar.basic::before {
+        width: calc(40% - 10px);
+    }
+    
+    .bar.intermediate::before {
+        width: calc(60% - 10px);
+    }
+    
+    .bar.advanced::before {
+        width: calc(80% - 10px);
+    }
+    
+    .bar.expert::before {
+        width: calc(100% - 10px);
+    }
+    /* MID2 */
+    /* BOTTOM */
+    
+    #bottom {
+        background-color: white;
+        /* height: 100vh; */
+    }
+    /* BOTTOM */
+    /* FOOTER */
+    
+    #footer {
+        background-color: #0bceaf;
+        height: 30vh;
+    }
+    
+    .img-fluid {
+        size: 400px;
+    }
+    /* FOOTER */
