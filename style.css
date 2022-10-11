@@ -233,6 +233,10 @@
         height: 100vh;
     }
     
+    .img-cont {
+        height: 50px !important;
+    }
+    
     .p2 {
         top: -160px;
     }
