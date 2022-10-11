@@ -37,8 +37,14 @@
     #navigation-bar {
         height: 20px;
         background-color: white;
+        height: 100px !important;
         /* margin: 5px;
         padding: 10px; */
+    }
+    
+    .navi {
+        height: 100px !important;
+        font-size: 1.3rem;
     }
     /* NAVBAR */
     /* TOP */
