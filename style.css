@@ -32,6 +32,15 @@
         position: relative;
         bottom: 20%;
     }
+    /* NAVBAR */
+    
+    #navigation-bar {
+        height: 20px;
+        background-color: white;
+        /* margin: 5px;
+        padding: 10px; */
+    }
+    /* NAVBAR */
     /* TOP */
     
     #top {
@@ -76,12 +85,6 @@
     .h2 {
         color: white;
         font-size: 2em;
-    }
-    
-    #navigation-bar {
-        background-color: white;
-        /* margin: 5px;
-        padding: 10px; */
     }
     
     .pro {
