@@ -247,5 +247,12 @@
     #footer {
         background-color: #0bceaf;
         height: 20vh;
+        padding: 2%;
+        text-align: center;
+    }
+    
+    .footer-link {
+        padding-left: 30% !important;
+        padding-right: 30% !important;
     }
     /* FOOTER */
