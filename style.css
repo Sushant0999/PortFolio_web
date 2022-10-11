@@ -17,6 +17,21 @@
     html {
         scroll-behavior: smooth;
     }
+    
+    #header {
+        text-align: center;
+        font-size: 10rem;
+        color: rgb(182, 181, 181);
+        font-family: 'HandaFont' !important;
+    }
+    
+    #onheader {
+        text-align: center;
+        color: #0bceaf;
+        font-size: 4rem;
+        position: relative;
+        bottom: 20%;
+    }
     /* TOP */
     
     #top {
@@ -94,21 +109,6 @@
     /* SPACER */
     /* MID */
     
-    #header {
-        text-align: center;
-        font-size: 10rem;
-        color: rgb(182, 181, 181);
-        font-family: 'HandaFont' !important;
-    }
-    
-    #onheader {
-        text-align: center;
-        color: #0bceaf;
-        font-size: 4rem;
-        position: relative;
-        bottom: 20%;
-    }
-    
     .buttonP {
         padding: 2% !important;
     }
@@ -126,9 +126,6 @@
     #mid1 {
         background-color: azure;
         height: 100vh;
-        /*   filter: blur(5px);
-        -webkit-filter: blur(5px);
-        background-position: center; */
     }
     /* MID1 */
     /* MID2 */
@@ -223,7 +220,11 @@
     
     #bottom {
         background-color: white;
-        /* height: 100vh; */
+        height: 100vh;
+    }
+    
+    .p2 {
+        top: -160px;
     }
     /* BOTTOM */
     /* FOOTER */
@@ -231,9 +232,5 @@
     #footer {
         background-color: #0bceaf;
         height: 30vh;
-    }
-    
-    .img-fluid {
-        size: 400px;
     }
     /* FOOTER */
