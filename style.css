@@ -255,4 +255,12 @@
         padding-left: 30% !important;
         padding-right: 30% !important;
     }
+    
+    .link-icons {
+        color: black;
+    }
+    
+    .link-icons:hover {
+        color: white;
+    }
     /* FOOTER */
