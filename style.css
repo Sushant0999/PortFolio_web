@@ -257,10 +257,10 @@
     }
     
     .link-icons {
-        color: black;
+        color: white;
     }
     
     .link-icons:hover {
-        color: white;
+        color: black;
     }
     /* FOOTER */
