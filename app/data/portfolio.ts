@@ -54,21 +54,21 @@ export const PROJECTS: Project[] = [
       challenges: "Optimizing matrix operations for performance while maintaining mathematical precision in filter implementation."
     }
   },
-  {
-    id: "dry-fruits-shop",
-    title: "Dry Fruits Inventory & Billing",
-    shortDescription: "A production-grade offline-first Flutter application for managing retail inventory and billing.",
-    category: "system",
-    tags: ["Flutter", "SQLite", "Riverpod", "Offline-First"],
-    featured: true,
-    details: {
-      signal: "Inventory state changes and high-frequency billing transactions in unreliable network environments.",
-      decision: "Local conflict resolution logic to handle stock deduction and sales logging without server connectivity.",
-      system: "MVVM architecture with SQLite persistence. Synchronizes with remote backend only when stable connection is signaled.",
-      trust: "Transactional integrity prevents data corruption during app crashes or battery failures. Automated invoice generation ensures auditability.",
-      challenges: "Implementing a robust synchronization queue that handles partial failures and retries without duplicating financial records."
-    }
-  },
+  // {
+  //   id: "dry-fruits-shop",
+  //   title: "Dry Fruits Inventory & Billing",
+  //   shortDescription: "A production-grade offline-first Flutter application for managing retail inventory and billing.",
+  //   category: "system",
+  //   tags: ["Flutter", "SQLite", "Riverpod", "Offline-First"],
+  //   featured: true,
+  //   details: {
+  //     signal: "Inventory state changes and high-frequency billing transactions in unreliable network environments.",
+  //     decision: "Local conflict resolution logic to handle stock deduction and sales logging without server connectivity.",
+  //     system: "MVVM architecture with SQLite persistence. Synchronizes with remote backend only when stable connection is signaled.",
+  //     trust: "Transactional integrity prevents data corruption during app crashes or battery failures. Automated invoice generation ensures auditability.",
+  //     challenges: "Implementing a robust synchronization queue that handles partial failures and retries without duplicating financial records."
+  //   }
+  // },
   {
     id: "map-my-spend",
     title: "MapMySpend Financial Intelligence",
