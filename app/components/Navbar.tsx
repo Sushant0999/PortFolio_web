@@ -1,18 +1,16 @@
-
 import Link from 'next/link';
 
 export default function Navbar() {
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center py-4">
-            <div className="glass-panel rounded-full px-6 py-3 flex items-center gap-8 shadow-lg shadow-emerald-500/5">
-                <Link href="/" className="font-bold text-xl tracking-tight hover:text-emerald-400 transition-colors">
-                    SR
+        <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center py-6 px-4">
+            <div className="glass-panel rounded-full px-8 py-3.5 flex items-center gap-10 shadow-2xl">
+                <Link href="/" className="font-black text-2xl tracking-tighter hover:scale-110 transition-transform text-white">
+                    S<span className="text-sky-500">R</span>
                 </Link>
-                <div className="flex gap-6 text-sm font-medium text-slate-300">
-                    <Link href="#about" className="hover:text-white transition-colors">About</Link>
-                    <Link href="#projects" className="hover:text-white transition-colors">Projects</Link>
-                    <Link href="#skills" className="hover:text-white transition-colors">Skills</Link>
-                    <Link href="#contact" className="hover:text-white transition-colors">Contact</Link>
+                <div className="flex gap-8 text-sm font-semibold tracking-wide text-slate-300">
+                    <Link href="/about" className="hover:text-sky-400 transition-colors uppercase">About</Link>
+                    <Link href="/projects" className="hover:text-indigo-400 transition-colors uppercase">Projects</Link>
+                    <a href="mailto:contact@sushantraj.com" className="hover:text-purple-400 transition-colors uppercase">Contact</a>
                 </div>
             </div>
         </nav>
