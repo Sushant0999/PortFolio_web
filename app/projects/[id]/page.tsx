@@ -1,7 +1,12 @@
-
 import { PROJECTS } from '../../data/portfolio';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+
+export async function generateStaticParams() {
+    return PROJECTS.map((project) => ({
+        id: project.id,
+    }));
+}
 
 // Correctly typing params for Next.js 15+ dynamic routes
 type Props = {
