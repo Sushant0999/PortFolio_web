@@ -147,6 +147,22 @@ export const PROJECTS: Project[] = [
       trust: "Proven correctness through exhaustive test cases, focusing on edge case coverage and memory safety.",
       challenges: "Optimizing solutions from O(n²) to O(n) or O(log n) to meet execution time limits of competitive programming judges."
     }
+  },
+  {
+    id: "journal-sheets",
+    title: "Cloud Journal (Google Sheets)",
+    shortDescription: "A minimalist, completely serverless journaling application that synchronizes entries directly to Google Sheets for ubiquitous access.",
+    category: "system",
+    tags: ["React", "Google Sheets API", "OAuth"],
+    featured: true,
+    link: "https://journal-seven-pink.vercel.app",
+    details: {
+      signal: "User-generated journal entries and authentication tokens from Google OAuth.",
+      decision: "Validates OAuth tokens and securely routes journal payloads to a designated Google Sheet.",
+      system: "React frontend integrated directly with the Google Sheets API, bypassing the need for a custom database backend.",
+      trust: "Leverages Google's infrastructure for data persistence and identity management, ensuring zero data loss and secure access.",
+      challenges: "Handling token expiration, stale auth states, and robust error recovery during 403 Forbidden scenarios."
+    }
   }
 ];
 
