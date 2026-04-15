@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                     <div className="text-slate-400 text-sm">
-                        <p>© {new Date().getFullYear()} {PROFILE.name}. All rights reserved.</p>
+                        <p>{new Date().getFullYear()} {PROFILE.name}.</p>
                     </div>
 
                     <div className="flex gap-6">
